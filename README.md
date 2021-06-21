@@ -1,2 +1,5 @@
 # vue-lab
-Adventures in vue.
+
+## Purpose
+
+This is a repository for trying a few things out in vue.
