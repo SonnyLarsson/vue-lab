@@ -1,0 +1,22 @@
+{
+    "url": "https://github.com/SonnyLarsson/vue-lab",
+    "email": "",
+    "name": "vue-lab",
+    "version": "0.0.1",
+    "eslintConfig": {
+        "rules": {
+            "vue/no-unused-vars": "error"
+        }
+    },
+    "scripts": {
+        "install-clean": "echo Y | rmdir /s node_modules && npm i"
+    },
+    "dependencies": {
+        "typescript": "^4.3.4",
+        "vue": "^2.6.14"
+    },
+    "devDependencies": {
+        "eslint": "^7.29.0",
+        "eslint-plugin-vue": "^7.11.1"
+    }
+}
