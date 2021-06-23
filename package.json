@@ -1,6 +1,16 @@
 {
     "url": "https://github.com/SonnyLarsson/vue-lab",
     "email": "",
+    "name": "vue-lab",
+    "version": "0.0.1",
+    "eslintConfig": {
+        "plugins": [
+            "vue/vue3-recommended"
+        ],
+        "rules": {
+            "vue/no-unused-vars": "error"
+        }
+    },
     "dependencies": {
         "typescript": "^4.3.4",
         "vue": "^2.6.14"
