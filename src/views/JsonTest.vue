@@ -1,21 +1,15 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
     <p>
-      General Kenobi!
+      THIS IS A TEST
     </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <GetJson />
   </div>
+  <GetJson />
 </template>
 
 <script lang="ts">
   import { defineComponent } from 'vue';
-  import GetJson from './GetJson.vue';
+  import GetJson from '../components/GetJson.vue';
 
   export default defineComponent({
   components: { GetJson },
@@ -32,7 +26,6 @@
   });
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;
